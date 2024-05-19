@@ -1,0 +1,16 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://img.freepik.com/premium-vector/money-transfer-global-currency-stock-exchange-stock_115579-1237.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.mainBox{
+  width: 700px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  color: white;
+  border-radius: 10px;
+}
