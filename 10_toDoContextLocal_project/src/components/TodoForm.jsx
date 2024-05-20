@@ -12,7 +12,7 @@ function TodoForm() {
 
     if (!todo || todo.trim()==="") return;
 
-    addTodo({id: todos.length + 1, todo: todo.trim(), completed: false});
+    addTodo({id: Date.now(), todo: todo.trim(), completed: false});
     setTodo("");
   }
 
